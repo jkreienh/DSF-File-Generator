@@ -302,7 +302,9 @@
 			<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Data Sharing Framework/DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Data Sharing Framework/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Main - PX4-SITL-TCP.vi" Type="VI" URL="../Main - PX4-SITL-TCP.vi"/>
+		<Item Name="Main - UDP.vi" Type="VI" URL="../Main - UDP.vi"/>
+		<Item Name="Main - X-Plane-UDP.vi" Type="VI" URL="../Main - X-Plane-UDP.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
@@ -372,6 +374,11 @@
 			<Item Name="DSF Settings Info.ctl" Type="VI" URL="../../../Public/Documents/National Instruments/NI VeriStand 2023/Custom Devices/Data Sharing Framework/Windows/DSF Core.lvlibp/Typedefs/DSF Settings Info.ctl"/>
 			<Item Name="DSF Timeout Behavior.ctl" Type="VI" URL="../../../Public/Documents/National Instruments/NI VeriStand 2023/Custom Devices/Data Sharing Framework/Windows/DSF Core.lvlibp/Typedefs/DSF Timeout Behavior.ctl"/>
 			<Item Name="DSF Timing Info.ctl" Type="VI" URL="../../../Public/Documents/National Instruments/NI VeriStand 2023/Custom Devices/Data Sharing Framework/Windows/DSF Core.lvlibp/Typedefs/DSF Timing Info.ctl"/>
+			<Item Name="TCP - Create Rx Groups.vi" Type="VI" URL="../PX4-SITL-TCP/TCP - Create Rx Groups.vi"/>
+			<Item Name="TCP - Create Rx Transfer.vi" Type="VI" URL="../PX4-SITL-TCP/TCP - Create Rx Transfer.vi"/>
+			<Item Name="TCP - Create Tx Groups.vi" Type="VI" URL="../PX4-SITL-TCP/TCP - Create Tx Groups.vi"/>
+			<Item Name="TCP - Create Tx Transfer.vi" Type="VI" URL="../PX4-SITL-TCP/TCP - Create Tx Transfer.vi"/>
+			<Item Name="TCP - Transfer Groups to DSF Cluster.vi" Type="VI" URL="../PX4-SITL-TCP/TCP - Transfer Groups to DSF Cluster.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
