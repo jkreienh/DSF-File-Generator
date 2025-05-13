@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="GERM" Type="Folder" URL="../GERM">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="RDMA" Type="Folder" URL="../RDMA">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -302,6 +305,7 @@
 			<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Data Sharing Framework/DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Data Sharing Framework/DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
+		<Item Name="Main - GERM.vi" Type="VI" URL="../Main - GERM.vi"/>
 		<Item Name="Main - PX4-SITL-TCP.vi" Type="VI" URL="../Main - PX4-SITL-TCP.vi"/>
 		<Item Name="Main - UDP.vi" Type="VI" URL="../Main - UDP.vi"/>
 		<Item Name="Main - X-Plane-UDP.vi" Type="VI" URL="../Main - X-Plane-UDP.vi"/>
